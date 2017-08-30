@@ -1,0 +1,63 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+
+<p>Use this area to provide additional information.</p>
+
+<div class="row">
+
+	<form>
+		<section>
+			<article>
+				<header>
+					<h2>Customer</h2>
+				</header>
+
+				<div>
+					<label for="customerSearch">Search: </label>
+					<input type="text" id="customerSearch" name="customerSearch" size="25" />
+				</div>
+
+				<div id="customerList" class="=dataTable">
+					<table>
+						<tr>
+							<th>First Name</th>
+							<th>Last Name</th>
+							<th>Age</th>
+							<th>Gender</th>
+							<th>Email</th>
+							<th>Address</th>
+							<th>Phone</th>
+							<th>Job</th>
+						</tr>
+					</table>
+				</div>
+			
+			</article>
+
+
+
+			<article id="CustomerDetails">
+				<div id="customerDetailsList" class="dataTable">
+					<table>
+						<tr>
+							<th>A</th>
+							<th>B</th>
+							<th>C</th>
+							<th>D</th>
+							<th>E</th>
+							<th>F</th>
+							<th>G</th>
+							<th>H</th>
+						</tr>
+					</table>
+				</div>
+
+			</article>
+		</section>
+	</form>
+
+
+</div>
